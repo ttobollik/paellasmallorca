@@ -1,0 +1,21 @@
+{
+	"/": [
+		"src/routes/+layout.server.js",
+		"src/routes/+layout.server.js"
+	],
+	"/contact": [
+		"src/routes/+layout.server.js"
+	],
+	"/gallery": [
+		"src/routes/+layout.server.js"
+	],
+	"/whatwedo": [
+		"src/routes/+layout.server.js"
+	],
+	"/whereweare": [
+		"src/routes/+layout.server.js"
+	],
+	"/whoweare": [
+		"src/routes/+layout.server.js"
+	]
+}
