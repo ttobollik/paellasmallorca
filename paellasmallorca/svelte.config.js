@@ -37,7 +37,7 @@ const config = {
       entries: ['*'],
     },
     paths: {
-      base: '/paellas-mallorca',
+      base: '/paellasmallorca',
     },
   },
 };
