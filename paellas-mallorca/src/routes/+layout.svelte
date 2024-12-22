@@ -5,6 +5,6 @@
 
 <Header />
 
-<main class="p-8">
+<main class="px-8 py-2">
   <slot /> <!-- Page content -->
 </main>
