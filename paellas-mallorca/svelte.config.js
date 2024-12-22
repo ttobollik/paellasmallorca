@@ -1,7 +1,11 @@
+/*
+
+// FOR STATIC SITE GENERATION
+
 import adapter from '@sveltejs/adapter-auto';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
-/** @type {import('@sveltejs/kit').Config} */
+// @type {import('@sveltejs/kit').Config} 
 const config = {
 	// Consult https://svelte.dev/docs/kit/integrations
 	// for more information about preprocessors
@@ -13,6 +17,29 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter()
 	}
+};
+
+export default config;
+
+*/
+
+import adapter from '@sveltejs/adapter-static';
+
+const config = {
+  kit: {
+    adapter: adapter({
+      // Default options
+      pages: 'build',
+      assets: 'build',
+      fallback: null,
+    }),
+	prerender: {
+      entries: ['*'],
+    },
+    paths: {
+      base: '/paellas-mallorca',
+    },
+  },
 };
 
 export default config;
