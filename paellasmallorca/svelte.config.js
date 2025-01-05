@@ -31,7 +31,7 @@ const config = {
       // Default options
       pages: 'build',
       assets: 'build',
-      fallback: null,
+      fallback: 'index.html',
     }),
 	prerender: {
       entries: ['*'],
