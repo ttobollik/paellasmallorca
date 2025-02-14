@@ -1,0 +1,1 @@
+import{a as o,t as r}from"../chunks/disclose-version.CSyhLPHY.js";import"../chunks/legacy.CfMjrG8u.js";import{n as t}from"../chunks/runtime.ZTW9mJCJ.js";var p=r("<h2>Gallery</h2> <p>Here are some photos of our amazing paella events!</p>",1);function f(a){var e=p();t(2),o(a,e)}export{f as component};

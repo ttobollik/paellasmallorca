@@ -1,0 +1,1 @@
+import{a as o,t as p}from"../chunks/disclose-version.CSyhLPHY.js";import"../chunks/legacy.CfMjrG8u.js";import{n as r}from"../chunks/runtime.ZTW9mJCJ.js";var e=p("<h2>Contact Us</h2> <p>Get in touch with us at paella@mallorca.com or call +34 123 456 789.</p>",1);function l(a){var t=e();r(2),o(a,t)}export{l as component};
